@@ -30,3 +30,11 @@ p {
 .header-content .right {
     background-color: gray;
 }
+
+.navigation {
+    display: flex;
+}
+
+.navigation h2, p {
+    flex: 1;
+}
