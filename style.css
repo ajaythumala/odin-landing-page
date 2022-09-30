@@ -4,11 +4,6 @@ body {
 
 .hero-header {
     background-color: #1F2937;
-
-}
-
-.hero-header h2 {
-    font-size: 24px;
 }
 
 p {
@@ -37,8 +32,28 @@ p {
 
 .navigation {
     display: flex;
+    align-items:center;
+    color: white;
+    justify-content: space-between;
+    /* border: 2px solid red; */
 }
 
-.navigation h2, p {
-    flex: 1;
+.navigation ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-right: 250px;
+    gap: 32px;
+    font-size: 18px;
+    color: #E5E7EB;
+    /* border: 2px solid green; */
+    padding: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 250px;
+    /* border: 2px solid green; */
+    padding: 0;
 }
