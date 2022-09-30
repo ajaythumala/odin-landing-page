@@ -37,11 +37,11 @@ body {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-top: 100px;
     /* border: 2px solid red; */
-    margin-bottom: 100px;
-    gap: 50px;
+    margin-bottom: 120px;
+    gap: 50px; 
 }
 
 .header-content .left {
@@ -50,32 +50,33 @@ body {
     flex-direction: column;
     flex:1;
     gap: 8px;
-    
 }
 
 .header-content .right {
     background-color: gray;
     margin-right: 250px;
+    flex: 1;
 }
 
 .heading {
     color: white;
     font-size: 48px;
     font-weight: 900;
-    width: 400px;
+    max-width: 400px;
     /* border: 2px solid red; */
     padding-bottom: 0px;
     flex: 1
 }
 
 .left p {
-    width: 500px;
+    max-width: 500px;
     /* border: 2px solid green; */
     margin: 0;
 }
 
 .left {
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     /* border: 2px solid red; */
 }
 
@@ -86,6 +87,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     flex: 1;
+    /* max-width: 300px; */
 }
 
 #button {
@@ -96,6 +98,8 @@ body {
     color: white;
     width: 100px;
     padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
 }
 
 .navigation {
