@@ -41,6 +41,7 @@ body {
     margin-top: 100px;
     /* border: 2px solid red; */
     margin-bottom: 100px;
+    gap: 50px;
 }
 
 .header-content .left {
@@ -64,6 +65,7 @@ body {
     width: 400px;
     /* border: 2px solid red; */
     padding-bottom: 0px;
+    flex: 1
 }
 
 .left p {
@@ -72,12 +74,18 @@ body {
     margin: 0;
 }
 
+.left {
+    padding: 16px;
+    /* border: 2px solid red; */
+}
+
 .right {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
+    flex: 1;
 }
 
 #button {
