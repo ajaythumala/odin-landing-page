@@ -6,12 +6,13 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 900;
-    margin-left: 250px;
+    /* margin-left: 250px; */
     /* border: 2px solid green; */
     padding: 0;
 }
@@ -20,7 +21,7 @@ body {
     display: flex;
     list-style: none;
     color: white;
-    margin-right: 250px;
+    /* margin-right: 250px; */
     gap: 32px;
     font-size: 18px;
     color: #E5E7EB;
@@ -106,8 +107,13 @@ body {
     display: flex;
     align-items:center;
     color: white;
+    width: 63%;
     justify-content: space-between;
+    /* gap:auto; */
+    /* flex: 1; */
     /* border: 2px solid red; */
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .section2 {
